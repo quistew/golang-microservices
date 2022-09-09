@@ -8,7 +8,7 @@ import (
 	"google.golang.org/grpc"
 )
 
-var addr string = "0.0.0.0:50051"
+var addr string = "127.0.0.1:5051"
 
 type Server struct {
 	pb.GreetServiceServer
